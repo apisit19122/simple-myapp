@@ -24,7 +24,7 @@ pipeline {
         stage('Build image') {
             steps {
                 script {
-                    dockerImage = docker.build("apisit19122/my-app")
+                    dockerImage = docker.build("apisit19122/simple-myapp")
                 }
             }
         }
