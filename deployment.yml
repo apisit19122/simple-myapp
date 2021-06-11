@@ -8,8 +8,8 @@ spec:
     app: simple-myapp
   ports:
   - protocol: TCP
-    port: 8080
-    targetPort: 8080
+    port: 9000
+    targetPort: 9000
 ---
 apiVersion: apps/v1
 kind: Deployment
